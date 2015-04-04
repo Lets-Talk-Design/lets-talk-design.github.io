@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://incorporated.sendtoinc.com</link>
+    <atom:link href="http://incorporated.sendtoinc.com/feed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-us</language>
+    <pubDate>Fri, 03 Apr 2015 18:02:31 +0000</pubDate>
+    <lastBuildDate>Fri, 03 Apr 2015 18:02:31 +0000</lastBuildDate>
+
+    
+    
+    <item>
+      <title>Let's Talk Design Relaunch</title>
+      <link>http://incorporated.sendtoinc.com/2015/04/03/relaunch/</link>
+      <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://incorporated.sendtoinc.com/2015/04/03/relaunch</guid>
+      <description>&lt;p&gt;Incorporated provides a great typography, responsive design, author details, semantic markup and more.&lt;/p&gt;
+
+&lt;p&gt;You can set customize post covers, and other things directly in the post front matter:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-yaml&#39; data-lang=&#39;yaml&#39;&gt;layout: post
+
+title: Jekyll Incorporated Features
+subtitle: &amp;quot;What&amp;#39;s in the box&amp;quot;
+
+# Setup post cover image in /images/
+cover_image: blog-cover.jpg
+
+excerpt: &amp;quot;Incorporated provides a great typography, responsive design, author details, semantic markup and more.&amp;quot;
+
+# Author details, including Google Plus authorship
+author:
+  name: Karri Saarinen
+  twitter: karrisaarinen
+  gplus: 100687498195339762535 
+  bio: Co-founder, Design
+  image: ks.jpg
+  
+# Keep it as draft, not published in index.html or feed.xml
+draft: false&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;configurable__code_snipped_highlighting&quot;&gt;Configurable &amp;amp; Code Snipped Highlighting&lt;/h4&gt;
+
+&lt;p&gt;/assets/stylesheets/main.scss:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-scss&#39; data-lang=&#39;scss&#39;&gt;/* Bodytext font */
+$font: &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif;
+
+/* Font for headings */
+$fontheadings: &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif;
+
+/* Text colors */
+$text: #21272d;
+$textmuted: #848484;
+$accent: #2077b2;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;config.yml:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-yaml&#39; data-lang=&#39;yaml&#39;&gt;inc:
+  # Blog Information
+  title:        &amp;quot;Jekyll Incorporated&amp;quot;
+  subtitle:     &amp;quot;Modern Jekyll based blog for companies&amp;quot;
+  cover_image:  blog-cover.jpg
+  
+  # Company information
+  company:      Incorporated
+  url:          http://incorporated.sendtoinc.com/
+  facebook:     sendtoinc
+  twitter:      sendtoinc
+  about_link:   https://sendtoinc.com/about/
+  
+  # Product Information
+  product_link: http://incorporated.sendtoinc.com/
+  tagline:      &amp;quot;Get a modern blog for your company&amp;quot;
+  
+  # Comments
+  disqus:
+    # Eg. &amp;quot;exampleblog&amp;quot; Set to false to disable comments
+    shortname:  false
+  
+  
+  # Sharing settings
+  sharing:
+    twitter:    false
+    facebook:   false
+    gplus:      false
+    hn:         false
+    
+  
+ # Analytics     
+  analytics:
+    google: 
+      # eg. &amp;#39;UA-123-12&amp;#39;
+      id:       false&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Zoomable images&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#39;full zoomable&#39;&gt;&lt;img src=&#39;/images/incorporated.jpg&#39; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Awesome quotes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Effective companies tend to communicate more, their people are curious and they have opinions”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Stay tuned for updates.&lt;/p&gt;</description>
+    </item>
+    
+    
+
+  </channel> 
+</rss>
