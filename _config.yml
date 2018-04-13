@@ -1,0 +1,33 @@
+# Setup
+title:               Let's Talk Design
+tagline:             A podcast about designing things you love
+url:                 http://letstalkdesign.net
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+collections:
+    episodes:
+      output: true
+
+# About/contact
+# author:
+#   name:              Mark Otto
+#   url:               https://twitter.com/mdo
+#   email:             markdotto@gmail.com
+
+exclude:
+  - 'docker-compose.yml'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
+
+plugins:
+  - 'jekyll-paginate'
+
+repository: Lets-Talk-Design/lets-talk-design.github.io
