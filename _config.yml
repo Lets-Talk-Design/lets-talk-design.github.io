@@ -2,8 +2,9 @@
 title:               Let's Talk Design
 tagline:             A podcast about designing things you love
 url:                 http://letstalkdesign.net
-paginate:            1
+# paginate:            1
 baseurl:             ""
+analytics_id: UA-3104942-14
 
 # Assets
 #
@@ -15,12 +16,6 @@ collections:
     episodes:
       output: true
 
-# About/contact
-# author:
-#   name:              Mark Otto
-#   url:               https://twitter.com/mdo
-#   email:             markdotto@gmail.com
-
 exclude:
   - 'docker-compose.yml'
   - 'Gemfile'
@@ -28,6 +23,6 @@ exclude:
   - 'README.md'
 
 plugins:
-  - 'jekyll-paginate'
+  # - 'jekyll-paginate'
 
 repository: Lets-Talk-Design/lets-talk-design.github.io
