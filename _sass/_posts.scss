@@ -5,11 +5,69 @@
 
 .page,
 .post {
-  margin-bottom: 4em;
-
+  margin-bottom: 3em;
   li + li {
     margin-top: .25rem;
   }
+}
+
+// Hackish styles for index page
+dd, dt {
+  margin-left: 0;
+}
+.index-episode a {
+  font-size: 75%;
+  margin-bottom: auto;
+  padding: 8px 12px 8px 12px;
+  background-color: $green;
+  color: #fff;
+  //text-decoration:none;
+  font-weight: normal;
+}
+.index-title {
+  color: #303030;
+  font-size: 150%;
+  font-weight: bold;
+  padding-top: 12px;
+}
+.index-date {
+  font-size: 75%;
+}
+.index-description {
+  font-size: 90%;
+  margin-bottom: auto;
+}
+
+// Hackish styles for episode pages
+
+.episode-number {
+  font-size: 75%;
+  margin-bottom: auto;
+  padding: 8px 12px 8px 12px;
+  background-color: $green;
+  color: #fff;
+  //text-decoration:none;
+  font-weight: normal;
+}
+.episode-title {
+  color: #303030;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 12px 0 12px 0;
+}
+.episode-date {
+  font-size: 75%;
+  padding-bottom: 12px;
+}
+.episode-description {
+  font-size: 90%;
+  margin-bottom: auto;
+}
+
+.anchor-embed {
+  padding-bottom: 12px;
+  padding-top: 12px;
+
 }
 
 // Blog post or page title
@@ -56,7 +114,7 @@
     }
 
     a:hover {
-      color: $green;
+      color: #268bd2;
       text-decoration: none;
 
       small {

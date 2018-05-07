@@ -3,16 +3,21 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+<dl>
+  <dt><span class="episode-number">Episode {{ page.episode_number }}</span></dt>
+  <dd class="episode-title">{{ page.title }}</dd>
+  <dd class="episode-date">{{ page.date | date_to_long_string }}</dd>
+  <dd class="episode-description">{{ page.description }}</dd>
+</dl>
 {% if page.anchorfm_link %}
-  <div>
+  <div class="anchor-embed">
     <iframe src="https://anchor.fm/letstalkdesign/embed/episodes/{{ page.anchorfm_link }}" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-  </div>
+  </div>  <!-- anchor-embed -->
 {% else %}
-<p class="message">
+<p class="alert">
 There is no Anchor.fm embed URL for this episode
 </p>
 {% endif %}
-  <p>{{ page.description }}</p>
+
   {{ content }}
 </article>

@@ -5,11 +5,10 @@
 
   <body>
 
-    <div class="container content">
+    <div class="container">
       <header class="masthead">
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
         </h3>
       </header>
 
@@ -19,10 +18,10 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+          &copy; <time datetime="2013-01-01T08:27:58-05:00">2013</time> - <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </small>
       </footer>
-    </div>
+    </div> <!-- container -->
 
     {% if site.analytics_id %}
      <script>
