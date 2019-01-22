@@ -1,7 +1,6 @@
-![Let's Talk Design Logo](img/logo.png)
-# Let's Talk Design
+# ![Let's Talk Design Logo](img/logo.png)
 
-**A podcast about designing things you love**
+## A podcast about designing things you love
 
 Listen at:
 
